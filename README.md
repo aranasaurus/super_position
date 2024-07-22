@@ -102,7 +102,6 @@ You can read about them in the [Known Issues](./docs/known-issues.md) document.
 
 The source code in this repository is licensed under any of the following at your option:
 
-- [CC0-1.0 License](./LICENSE-CC0-1.0.txt)
 - [MIT License](./LICENSE-MIT.txt)
 - [Apache License, Version 2.0](./LICENSE-Apache-2.0.txt)
 
