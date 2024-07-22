@@ -22,7 +22,7 @@ env:
   PACKAGE_NAME: super_position
   # The itch.io page to upload to, in the format: `user-name/project-name`.
   # Comment this out to disable.
-  ITCH_TARGET: aranasaurus/super_position
+  ITCH_TARGET: aranasaurus/super-position
   # The organization or author that owns the rights to the game.
   OWNER: aranasaurus
   # The path to the assets directory.

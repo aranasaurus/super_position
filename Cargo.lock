@@ -824,15 +824,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c115c97a5c8a263bd0aa7001b999772c744ac5ba797d07c86f25734ce381ea69"
 
 [[package]]
-name = "bevy_quickstart"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "log",
- "rand",
-]
-
-[[package]]
 name = "bevy_reflect"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1008,15 +999,6 @@ dependencies = [
  "concurrent-queue",
  "futures-lite",
  "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "super_position"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "log",
- "rand",
 ]
 
 [[package]]
@@ -3538,6 +3520,15 @@ name = "strict-num"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6637bab7722d379c8b41ba849228d680cc12d0a45ba1fa2b48f2a30577a06731"
+
+[[package]]
+name = "super_position"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "log",
+ "rand",
+]
 
 [[package]]
 name = "svg_fmt"
