@@ -22,12 +22,21 @@ pub(super) fn plugin(app: &mut App) {
 }
 
 /// The game's main screen states.
-#[derive(States, Debug, Hash, PartialEq, Eq, Clone, Default)]
+#[derive(States, Debug, Hash, PartialEq, Eq, Clone)]
 pub enum Screen {
-    #[default]
     Splash,
     Loading,
     Title,
     Credits,
     Playing,
+}
+
+impl Default for Screen {
+    fn default() -> Self {
+        if cfg!(feature = "dev") {
+            Screen::Loading
+        } else {
+            Screen::Splash
+        }
+    }
 }
